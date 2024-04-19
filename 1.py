@@ -12,6 +12,7 @@ for line in D.split('\n'):
       for d,val in enumerate(['one','two','three','four','five','six','seven','eight','nine']):
         if line[i:].startwith(val):
           p2_digits.append(str(d+1))
-p1 += int(p1_digits[0]+p1_digits[-1])
-p2 += int(p2_digits[0]+p2_digits[-1])
-          
+  p1 += int(p1_digits[0]+p1_digits[-1])
+  p2 += int(p2_digits[0]+p2_digits[-1])
+print(p1)
+print(p2)
